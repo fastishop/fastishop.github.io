@@ -1,7 +1,10 @@
+/* Import Vazir Font */
 @font-face {
   font-family: 'Vazir';
-  src: url('path/to/Vazir.ttf') format('truetype');
+  src: url('fonts/Vazir.eot');
+  src: local('Vazir'), url('fonts/Vazir.woff') format('woff'), url('fonts/Vazir.ttf') format('truetype');
 }
+
 /* General Styles */
 body, html {
   font-family: 'Vazir', sans-serif;
